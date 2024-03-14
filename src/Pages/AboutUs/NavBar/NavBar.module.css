@@ -1,0 +1,54 @@
+.NavBar {
+  bottom: 69%;
+  display: flex;
+  gap: 5px;
+  margin-bottom: -5px;
+  padding: 10px;
+  position: absolute;
+}
+
+.NavBar__logo img {
+  margin-left: 40px;
+}
+
+.NavBar__attributs {
+  display: flex;
+  font-family: Mulish;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+a {
+  color: #000;
+  font-size: 20px;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.NavBar__line {
+  left: 14.5%;
+  margin-top: 50px;
+  position: relative;
+}
+
+.Magnifying__glass {
+  color: #fff;
+  font-size: 25px;
+  left: 30%;
+  padding-top: 20px;
+  position: relative;
+}
+
+.Button__two {
+  background: #c7923e;
+  border: 1px solid #000;
+  border-radius: 10px;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 16px;
+  height: 55px;
+  left: 40%;
+  margin-top: 10px;
+  position: relative;
+  width: 165px;
+}

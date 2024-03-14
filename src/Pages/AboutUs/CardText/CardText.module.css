@@ -1,0 +1,68 @@
+.Monkey__Cards img {
+  left: 63%;
+  position: relative;
+}
+
+.About__expirience {
+  bottom: 7%;
+  color: #11142d;
+  font-family: lora;
+  font-size: 62px;
+  font-weight: 700;
+  left: 4%;
+  letter-spacing: 0.3%;
+  position: absolute;
+  width: 50%;
+}
+
+.Land__description {
+  bottom: 5%;
+  color: #515151;
+  font-family: mulish;
+  font-size: 20px;
+  font-weight: 400;
+  left: 4%;
+  letter-spacing: 0.5%;
+  position: absolute;
+}
+
+.Horizontal__barre {
+  background: #fff;
+  border-radius: 8px;
+  display: flex;
+  height: 82px;
+  justify-content: center;
+  left: 10.5%;
+  position: absolute;
+  top: 98%;
+  width: 816px;
+}
+
+.Booknow__bttn {
+  background: #304f47;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  height: 55px;
+  left: 8%;
+  margin-top: 13px;
+  padding: 18px 24px 18px 24px;
+  position: relative;
+  width: 159px;
+}
+
+.Barre__text {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+  right: 22%;
+}
+
+.Package {
+  padding-left: 70px;
+}
+
+.Date {
+  padding-left: 20px;
+}

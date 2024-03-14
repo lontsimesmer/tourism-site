@@ -1,0 +1,135 @@
+.Footer__component {
+  background: #304f43;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 565px;
+  margin-top: 150px;
+  padding-right: 10%;
+  width: 90%;
+}
+
+.Left__footer {
+  margin-left: 70px;
+  width: 90%;
+}
+
+.Footer__title {
+  color: #fff;
+  font-family: Lora;
+  font-size: 39px;
+  font-weight: 700;
+  letter-spacing: 0.5%;
+  padding-top: 60px;
+}
+
+.Footer__status {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5%;
+  padding-top: 15px;
+  width: 65%;
+}
+
+.Footer__address {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5%;
+  padding-top: 40px;
+}
+
+.Footer__subscrib {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  padding-top: 50px;
+}
+
+.Input__area {
+  display: flex;
+  gap: 15px;
+  padding-top: 10px;
+}
+
+.Footer__input {
+  border: none;
+  border-radius: 8px;
+  font-family: Mulish;
+  font-size: 16px;
+  height: 58px;
+  margin-left: 15px;
+  padding-left: 15px;
+  width: 300px;
+}
+
+.Right__footer {
+  margin-left: 8%;
+  width: 80%;
+}
+
+.Footer__logoIcons {
+  display: flex;
+  gap: 30%;
+  margin-top: 50px;
+}
+
+.Footer__logo {
+  position: relative;
+  left: 5%;
+}
+
+.Footer__icons {
+  letter-spacing: 0.5%;
+  margin-top: 30px;
+}
+
+.lorem {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 30px;
+  width: 120%;
+}
+
+.Footer__columns {
+  color: #fff;
+  display: flex;
+  gap: 60px;
+  font-size: 17px;
+  font-weight: 300;
+  margin-top: 50px;
+  width: 100%;
+}
+
+.paragraphs {
+  font-family: Mulish;
+  height: 20px;
+  left: 5%;
+  line-height: 2.5;
+  position: relative;
+}
+
+.paragraph {
+  font-family: Mulish;
+  height: 20px;
+  left: 20%;
+  line-height: 2.5;
+  position: relative;
+  width: 50%;
+}
+
+.Footer__licence {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  margin-top: 10px;
+  left: 80%;
+  position: relative;
+}
