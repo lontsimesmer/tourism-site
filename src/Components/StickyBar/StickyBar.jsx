@@ -1,25 +1,40 @@
 import React from 'react';
+import {
+  AiFillInstagram,
+  AiFillMail,
+  AiFillPhone,
+  AiOutlineTwitter,
+} from 'react-icons/ai';
+import { BiLogoFacebook, BiLogoLinkedin } from 'react-icons/bi';
 import Styles from './StickyBar.module.css';
-import phone from '../../assets/images/phone.png';
-import mail from '../../assets/images/mail.png';
-import icons from '../../assets/images/icons.png';
 
 export default function StickyBar() {
   return (
-    <section className={Styles.stickyBar}>
-      {/* <div className={Styles.mainContainer}> */}
-      {/* <div className={Styles.stickyBar__content}> */}
+    <div className={Styles.StickyBar}>
       <div className={Styles.StickyBar__logo}>
-        <img src={phone} alt="phone" />
-        <span className={Styles.Icons__name}>+250 784 688 641</span>
-        <img src={mail} alt="mail" />
-        <span className={Styles.Icons__name}>bbonteemma@gmail.com</span>
+        <AiFillPhone
+          style={{ color: '#fff', cursor: 'pointer', fontSize: 28 }}
+        />
+        <span className={Styles.Icon_name}>+250 784 688 641</span>
+        <AiFillMail
+          style={{ color: '#fff', cursor: 'pointer', fontSize: 28 }}
+        />
+        <span className={Styles.Icon_name}>bbonteemma@gmail.com</span>
       </div>
-      {/* </div> */}
       <div className={Styles.StickyBar__icons}>
-        <img src={icons} alt="icons" />
+        <div className={Styles.Circle_icons}>
+          <BiLogoFacebook style={{ color: '#fff', cursor: 'pointer' }} />
+        </div>
+        <div className={Styles.Circle_icons}>
+          <AiOutlineTwitter style={{ color: '#fff', cursor: 'pointer' }} />
+        </div>
+        <div className={Styles.Circle_icons}>
+          <BiLogoLinkedin style={{ color: '#fff', cursor: 'pointer' }} />
+        </div>
+        <div className={Styles.Circle_icons}>
+          <AiFillInstagram style={{ color: '#fff', cursor: 'pointer' }} />
+        </div>
       </div>
-      {/* </div> */}
-    </section>
+    </div>
   );
 }
