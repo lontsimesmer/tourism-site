@@ -1,15 +1,24 @@
 import React from 'react';
-import Styles from './PageImage.module.css'
+import Styles from './PageImage.module.css';
 import search from '../../../assets/images/search.png';
 import forward from '../../../assets/images/forward.png';
 import back from '../../../assets/images/back.png';
 import guest from '../../../assets/images/guest.png';
 import date from '../../../assets/images/date.png';
 import sort from '../../../assets/images/sort.png';
+import background from '../../../assets/images/nature10.png';
+
+// const swapCards = [
+//   {
+//     image: '',
+//     text: '',
+//   }
+// ]
 
 export default function PageImage() {
   return (
-    <section className={Styles.Page__image}>
+    <section className={Styles.PageImage}>
+      <img src={background} className={Styles.Background__image} alt="lake" />
       <div className={Styles.Image__text}>
         <h1>Experience the beauty of Rwanda with us</h1>
         <h2>Discover the Land of a Thousand Hills</h2>
@@ -23,7 +32,11 @@ export default function PageImage() {
         </div>
       </div>
       <div className={Styles.Horizontal__bar}>
-        <input placeholder='Search activities or Destinations' className={Styles.PageImage__input} type='text' />
+        <input
+          placeholder="Search activities or Destinations"
+          className={Styles.PageImage__input}
+          type="text"
+        />
         <div className={Styles.search__icon}>
           <img src={search} alt="search" />
         </div>
@@ -38,8 +51,10 @@ export default function PageImage() {
             <img src={sort} alt="sort" />
           </div>
         </div>
-        <button className={Styles.Booknow__btn}>Book Now</button>
+        <button className={Styles.Booknow__btn} type="submit">
+          Book Now
+        </button>
       </div>
     </section>
-  )
+  );
 }

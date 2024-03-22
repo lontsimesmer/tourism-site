@@ -1,8 +1,8 @@
 import React from 'react';
 import Styles from './DisplayCards.module.css';
-import giraffe from '../../assets/images/giraffe.png';
-import stream from '../../assets/images/stream.png';
-import boat from '../../assets/images/boat.png';
+import giraffe from '../../../assets/images/giraffe.png';
+import stream from '../../../assets/images/stream.png';
+import boat from '../../../assets/images/boat.png';
 
 const cards = [
   {

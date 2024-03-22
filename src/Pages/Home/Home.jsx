@@ -1,11 +1,11 @@
 import React from 'react';
-import StickyBar from '../../Components/StickyBar/StickyBar';
-import NavBar from '../../Components/NavBar/NavBar';
-import DisplayCards from '../../Components/DisplayCards/DisplayCards';
+import StickyBar from '../../Components/Organisms/StickyBar';
+import NavBar from '../../Components/Organisms/NavBar';
+import DisplayCards from '../../Components/Templates/DisplayCards/DisplayCards';
 import PageImage from './PageImage/PageImage';
 import MovingCards from './MovingCards/MovingCards';
 import Testimony from './Testimony/Testimony';
-import Footer from '../../Components/Footer/Footer';
+import Footer from '../../Components/Templates/Footer/Footer';
 
 export default function Home() {
   return (

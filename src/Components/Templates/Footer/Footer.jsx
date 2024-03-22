@@ -1,8 +1,8 @@
 import React from 'react';
 import Styles from './Footer.module.css';
-import envelop from '../../assets/images/envelop.png';
-import logo from '../../assets/images/logo.png';
-import socialicons from '../../assets/images/socialicons.png';
+import envelop from '../../../assets/images/envelop.png';
+import logo from '../../../assets/images/logo.png';
+import socialicons from '../../../assets/images/socialicons.png';
 
 export default function Footer() {
   return (
