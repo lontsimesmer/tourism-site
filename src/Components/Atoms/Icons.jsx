@@ -32,10 +32,13 @@ export const Instagram = styled(AiFillInstagram)`
   cursor: pointer;
 `;
 
-export const leftCircle = styled(AiOutlineLeftCircle)`
+export const LeftSlide = styled(AiOutlineLeftCircle)`
   color: #fff;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 70px;
+  left: 10%;
+  position: absolute;
+  top: 100%;
 `;
 
 export const Mail = styled(AiFillMail)`
@@ -50,10 +53,13 @@ export const Phone = styled(AiFillPhone)`
   font-size: 28px;
 `;
 
-export const rightCircle = styled(AiOutlineRightCircle)`
+export const RighSlide = styled(AiOutlineRightCircle)`
   color: #fff;
   cursor: pointer;
-  font-size: 25px;
+  font-size: 70px;
+  position: absolute;
+  right: 10%;
+  top: 100%;
 `;
 
 export const Right = styled(AiFillCaretRight)`

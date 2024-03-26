@@ -31,7 +31,6 @@ export const Heading3 = styled.h3`
 `;
 
 export const Heading4 = styled.h4`
-  color: #fff;
   font-family: Mulish;
   font-weight: 400;
   line-height: 25px;
