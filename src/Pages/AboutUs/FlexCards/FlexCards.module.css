@@ -1,0 +1,16 @@
+.Page__Heading {
+  color: #11142b;
+  font-family: lora;
+  font-weight: 700;
+  font-size: 62px;
+  font-style: normal;
+  letter-spacing: 0.003em;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.Heading__line {
+  display: flex;
+  justify-content: center;
+  margin-top: -10px;
+}
